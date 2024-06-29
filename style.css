@@ -1,0 +1,54 @@
+/*resetando o css dos nossos elementos html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilizando a main*/
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 176, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+.content{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
+}
+
+h1{
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.not{
+    background-color: red;
+    border: none;
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.yes{
+    background-color: green;
+    border: none;
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
